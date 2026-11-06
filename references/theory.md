@@ -7,7 +7,7 @@ Use this file to explain the "why" to the user — in simple words, in pieces, n
 A common impression: "AI absorbs information instantly, while a human needs months." That comparison is wrong.
 
 - **Inside a conversation, an AI learns nothing.** Everything it was told sits in its context — like a cheat sheet that's always in front of it. When the conversation ends, the information is gone; the model itself hasn't changed.
-- **Real AI learning is slow and expensive.** A model is trained on trillions of words, for months, on huge compute clusters. A child often needs about a hundred examples to grasp a new concept. In learning efficiency, humans win by a wide margin.
+- **Real AI learning is slow and expensive.** A model is trained on trillions of words, for months, on huge compute clusters. A person can often grasp a new concept from just a few examples. In learning efficiency, humans win by a wide margin.
 - **Humans don't have a cheat sheet.** Every time, they have to pull knowledge out of their own neural connections and assemble it piece by piece. That's why they need to learn it, not just see it.
 
 In one line: **AI holds instantly but doesn't learn; a human only hears instantly and learns over time.**
@@ -30,7 +30,7 @@ Takeaway: you can't speed up the biology, but you can make every contact with th
 | **Attempting an answer before the explanation** | "Warms up" the brain: activates related knowledge and exposes the gap, so the answer lands in a prepared spot. Works even when the attempt is wrong. |
 | **Spaced repetition** (1–3 days, a week, ~3 weeks) | Reviewing once you've partly forgotten forces effortful retrieval and strengthens the trace far more than repeating back to back. |
 | **Explaining simply (Feynman technique)** | Forces you to rebuild the knowledge in your own structure. Where it won't come out simply, there's a gap in understanding. |
-| **Applying it within 24 hours** | Knowledge used in a real task gets tied to action and context — it sticks many times faster. |
+| **Applying it within 24 hours** | Knowledge used in a real task gets tied to action and context — it sticks better. |
 | **Sleep** | It's a processing stage, not a break from it: transfer to long-term memory happens at night. |
 | **Linking to what you know** | New hooks onto old; the more anchor points, the faster and firmer. |
 | **Interleaving topics and problems** | The brain learns to tell when to use what, not just repeat a single template. |
