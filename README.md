@@ -35,7 +35,31 @@ Learn and Consolidate sessions end with:
 
 Questions adapt to the field: code, research, languages, business processes, math and decisions. The skill replies in your language.
 
+**Explanations and cards follow ASD-STE100** (Simplified Technical English): short sentences, one word — one meaning, active voice. See [references/ste.md](references/ste.md).
+
 It won't turn your work chat into a lesson. When a topic you showed interest in wraps up, Claude offers once to consolidate it. If you say no, it moves on.
+
+## The loop
+
+Every Learn and Consolidate session runs the same loop — the only difference is where the material comes from:
+
+```mermaid
+flowchart TD
+    A["<b>Warm up</b><br/>Try to answer the question yourself,<br/>even a wrong attempt counts"] --> B["<b>Short explanation</b><br/>Core idea + one vivid example,<br/>in simple unambiguous language (STE)"]
+    B --> C["<b>Active recall</b><br/>Answer 3–5 questions in your own words,<br/>without looking back"]
+    C --> D["<b>Review</b><br/>What is right, what is wrong,<br/>what is missing"]
+    D --> E["<b>Close the gaps</b><br/>Re-answer only what you missed"]
+    E --> F["<b>Knowledge card</b><br/>+ apply it within 24 hours"]
+    F --> G{"<b>Reminder</b><br/>2–3 days"}
+    G -- "confident" --> H{"<b>Reminder</b><br/>7 days"}
+    G -- "shaky" --> E
+    H -- "confident" --> I{"<b>Reminder</b><br/>~3 weeks"}
+    H -- "shaky" --> E
+    I -- "confident" --> J["<b>It's yours</b>"]
+    I -- "shaky" --> E
+```
+
+The interval grows while your answers stay confident; shaky answers loop back until the gaps close. Standalone versions: [docs/learning-loop.mmd](docs/learning-loop.mmd) (Mermaid source) and [docs/learning-loop.svg](docs/learning-loop.svg) (image).
 
 ## What a session looks like
 
