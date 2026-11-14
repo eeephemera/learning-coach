@@ -63,45 +63,46 @@ The interval grows while your answers stay confident; shaky answers loop back un
 
 ## What a session looks like
 
-An illustrative example of **Consolidate a chat**, after fixing a slow page:
+An illustrative example of **Learn a topic** — one question, one loop, done in five minutes:
 
-> **You:** Thanks, the N+1 is gone.
+> **You:** Help me learn why the seasons change. I want this to stick.
 >
-> **Claude:** There were a few new things here: N+1 queries and eager loading. Want to lock them in? 5 minutes: I'll ask 3–4 questions and set review reminders.
+> **Claude:** First, in your own words: why is it cold in winter and warm in summer? A guess is fine.
 >
-> **You:** Now.
+> **You:** We're closer to the Sun in summer?
 >
-> **Claude:** Worth keeping: why N+1 happens, how eager loading fixes it, when eager loading backfires. All three?
+> **Claude:** That's the usual guess — and it's wrong, which is useful to know. The Earth is actually slightly *closer* to the Sun in January. Here's the short version: seasons come from the tilt of the Earth, not from distance. The tilt makes the Sun's rays hit your hemisphere more directly in summer, and it makes the days longer. Both mean more heat.
+> Now, in your own words, without scrolling up:
+> 1. What causes the seasons?
+> 2. Why does the tilt matter more than the distance?
+> 3. When it's summer in one hemisphere, what season is it in the other?
 >
-> **You:** Yes.
+> **You:** 1. The tilt of the Earth. 2. The light hits more directly. 3. Winter.
 >
-> **Claude:** Answer in your own words, without scrolling up. Short is fine, mistakes are fine.
-> 1. Why did the page run 101 queries for 100 orders?
-> 2. How does eager loading change that?
-> 3. When does eager loading make things worse?
+> **Claude:** 1 and 3 are right. 2 is half right: the angle matters, and so does day length — a tilted hemisphere gets both. Answer 2 again with both parts.
 >
-> **You:** 1. One query for the orders, then one for each customer. 2. It loads the customers together with the orders. 3. No idea.
+> **You:** The tilt makes the light hit more directly *and* makes the days longer. More sunlight in total.
 >
-> **Claude:** 1 and 2 are right. 3 is the gap: you pay for related rows even on pages that never show them. Now answer 3 again in your own words.
+> **Claude:** Exactly. That's the gap closed — here's your card.
 
 The session ends with a card like this:
 
 ```
-Topic: N+1 queries · created 2026-11-06
-Context: slow orders page in my shop project
+Topic: Why seasons change · created 2026-11-14
+Context: my own question in a chat
 
 Questions (answer without hints):
-1. Why did the page run 101 queries for 100 orders?
-2. How does eager loading change that?
-3. When does eager loading make things worse?
+1. What causes the seasons?
+2. Why does the tilt matter more than the distance to the Sun?
+3. When it's summer in one hemisphere, what season is it in the other?
 
 Answer key — don't look before answering:
-1. One query for the list, then one lazy query per row for the customer.
-2. It fetches the related rows up front, with a join or one extra query.
-3. When the page doesn't use the relation: you pay for data nobody sees.
+1. The tilt of the Earth's axis.
+2. The tilt changes two things at once: the sunlight hits more directly, and the days get longer. Distance changes almost nothing.
+3. Winter.
 
-Apply: find one more list page in your project and count its queries.
-Reviews: 2026-11-09, 2026-11-13
+Apply: explain it to someone in one minute today.
+Reviews: 2026-11-17, 2026-11-21
 ```
 
 ## Install
