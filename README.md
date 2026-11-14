@@ -1,10 +1,23 @@
 # Learning Coach
 
-A Claude skill that turns any topic or work chat into knowledge you can still use a week later.
+A Claude skill that turns any topic or work chat into knowledge that sticks.
 
-You get a great answer from Claude and it makes sense. A week later, you can't reproduce it. Claude had the answer in front of it like a cheat sheet. You have to build it into your own memory, and reading barely does that.
+---
 
-Learning Coach makes Claude a coach instead of a lecturer. You try first, recall without scrolling up, get your mistakes reviewed, and come back when you've partly forgotten.
+**You read it. It made sense. A week later it's gone.**
+
+If any of these sound like you, this skill is for you:
+
+- You read the explanation, it all clicked — and tomorrow you can't explain it yourself.
+- You re-read the same chapter "just in case" and still forget it.
+- You highlighted half the page and remember none of it.
+- You got a great answer from Claude, trusted the chat to keep it... and the chat is the only place it lives.
+
+That's not a bad memory. That's what plain reading does. Your brain strengthens what it *retrieves*, not what it sees. Reading feels like learning because the text looks familiar — but recognition is not recall. And with an AI it's even easier to fool yourself: Claude has the answer in front of it like a cheat sheet, so it can "know" everything it was told. You can't. You have to build the knowledge into your own memory.
+
+Nothing new sticks just because you read it. It has to be **anchored in you**: retrieved, explained in your own words, applied, and revisited right when you're about to forget it. Otherwise it evaporates, no matter how many times you scroll up.
+
+**Learning Coach makes Claude a coach instead of a lecturer.** You try first. You recall without scrolling up. Your mistakes get reviewed. And the questions come back at you after you've partly forgotten — exactly when coming back does the most work. What you want to remember, you actually remember.
 
 ## What it does
 
